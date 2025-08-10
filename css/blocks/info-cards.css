@@ -1,20 +1,20 @@
-.info-cards{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 60px
-}
-.info-cards__item {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 48.555%;
-  margin: 0 auto;
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.info-cards__item--wrapper{
-  flex-direction: row;
-  width: 100%;
-  gap: 40px;
-  margin-bottom: 60px;
+.info-cards__item {
+    display: flex;
+    flex-direction: column;
+    width: 48.555%;
+    margin: 0 auto;
+}
+
+.info-cards--wrapper,
+.info-cards--wrapper .info-cards__item {
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+    margin-bottom: 60px;
 }
