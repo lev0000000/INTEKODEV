@@ -6,15 +6,18 @@
 
 .info-cards__item {
     display: flex;
-    flex-direction: column;
     width: 48.555%;
     margin: 0 auto;
 }
 
 .info-cards--wrapper,
-.info-cards--wrapper .info-cards__item {
+.info-cards--wrapper .info-cards__item{
     flex-direction: row;
+    gap: 60px;    
     width: 100%;
+}
+
+.info-cards--wrapper .info-card {
+    flex-direction: row;
     gap: 40px;
-    margin-bottom: 60px;
 }

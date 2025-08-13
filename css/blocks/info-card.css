@@ -1,3 +1,8 @@
+.info-card{
+  display: flex;
+  flex-direction: column;
+}
+
 .info-card__img {
   margin: 0 auto;
   object-fit: cover;
